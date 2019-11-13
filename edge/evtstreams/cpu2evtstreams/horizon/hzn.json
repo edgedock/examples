@@ -1,8 +1,8 @@
 {
-    "HZN_ORG_ID": "IBM",
+    "HZN_ORG_ID": "slayer-edge321-01",
     "MetadataVars": {
-        "DOCKER_IMAGE_BASE": "openhorizon/ibm.cpu2evtstreams",
+        "DOCKER_IMAGE_BASE": "edgedock/ibm.cpu2evtstreams",
         "SERVICE_NAME": "ibm.cpu2evtstreams",
-        "SERVICE_VERSION": "1.4.2"
+        "SERVICE_VERSION": "1.4.3"
     }
 }

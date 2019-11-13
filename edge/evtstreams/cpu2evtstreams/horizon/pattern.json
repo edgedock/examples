@@ -1,13 +1,23 @@
 {
-  "name": "pattern-${SERVICE_NAME}-$ARCH",
-  "label": "Edge $SERVICE_NAME Service Pattern for $ARCH",
-  "description": "Pattern for $SERVICE_NAME sending cpu and gps info to the IBM Event Streams for $ARCH",
-  "public": true,
+  "name": "pattern-${SERVICE_NAME}",
+  "label": "Edge $SERVICE_NAME Service Pattern for amd64 and arm",
+  "description": "Pattern for $SERVICE_NAME sending cpu and gps info to the IBM Event Streams for amd86 and arm",
+  "public": false,
   "services": [
     {
       "serviceUrl": "$SERVICE_NAME",
       "serviceOrgid": "$HZN_ORG_ID",
-      "serviceArch": "$ARCH",
+      "serviceArch": "amd64",
+      "serviceVersions": [
+        {
+          "version": "$SERVICE_VERSION"
+        }
+      ]
+    },
+    {
+      "serviceUrl": "$SERVICE_NAME",
+      "serviceOrgid": "$HZN_ORG_ID",
+      "serviceArch": "arm",
       "serviceVersions": [
         {
           "version": "$SERVICE_VERSION"
