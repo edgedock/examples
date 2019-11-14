@@ -1,7 +1,7 @@
 {
-    "HZN_ORG_ID": "IBM",
+    "HZN_ORG_ID": "slayer-edge321-01",
     "MetadataVars": {
-        "DOCKER_IMAGE_BASE": "openhorizon/ibm.cpu",
+        "DOCKER_IMAGE_BASE": "edgedock/ibm.cpu",
         "SERVICE_NAME": "ibm.cpu",
         "SERVICE_VERSION": "1.2.5"
     }

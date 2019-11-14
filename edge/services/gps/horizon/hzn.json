@@ -1,8 +1,8 @@
 {
-    "HZN_ORG_ID": "IBM",
+    "HZN_ORG_ID": "slayer-edge321-01",
     "MetadataVars": {
-        "DOCKER_IMAGE_BASE": "openhorizon/ibm.gps",
+        "DOCKER_IMAGE_BASE": "edgedock/ibm.gps",
         "SERVICE_NAME": "ibm.gps",
-        "SERVICE_VERSION": "2.0.8"
+        "SERVICE_VERSION": "2.0.9"
     }
 }
