@@ -1,5 +1,5 @@
 {
-    "HZN_ORG_ID": "slayer-edge321-01",
+    "HZN_ORG_ID": "slayer-edge322",
     "MetadataVars": {
         "DOCKER_IMAGE_BASE": "edgedock/ibm.cpu2evtstreams",
         "SERVICE_NAME": "ibm.cpu2evtstreams",

@@ -7,6 +7,16 @@
     {
       "serviceUrl": "$SERVICE_NAME",
       "serviceOrgid": "$HZN_ORG_ID",
+      "serviceArch": "amd64",
+      "serviceVersions": [
+        {
+          "version": "$SERVICE_VERSION"
+        }
+      ]
+    },
+    {
+      "serviceUrl": "$SERVICE_NAME",
+      "serviceOrgid": "$HZN_ORG_ID",
       "serviceArch": "arm",
       "serviceVersions": [
         {
